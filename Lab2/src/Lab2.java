@@ -84,49 +84,9 @@ public class Lab2 {
     
   
   
-  /*=======================================
+  /*=======================================*/
     
-    Do not modify the helper code below!
-    But you'll learn something reading it...
-        
-   We'll learn about how this works *very soon*. If you're
-   dying to find out, though, spoilers follow.
   
-   This is support code provided to make your life easier.
-   
-   As we've learned this semester,
-   our programs tend to run linearly: line 1, line 2, line 3
-   
-   We've seen two exceptions to this:
-   
-   1) With branching statements, like if-else, our program
-      will move to one place in code or another depending on
-      whether some condition(s) are true or false.
-      
-   2) With looping statements, like while and for, our program
-      will run through some series of steps and then repeat those
-      steps until some condition becomes false.
-      
-   We're about to reveal one more way in which your program's
-   execution can jump around: method calling.
-   You can think of methods kind of like mini-programs within
-   your program that you give a name (an identifier!) and can
-   then reuse whenever you want. We've discussed methods briefly,
-   things like 'println' or Scannner's 'nextLine' or Math's
-   'random'.
-   
-   What happens when your code above calls, or "invokes" the 
-   `println` message is your program "jumps" to the `println`
-   method that is defined below. It is passed one input, a 
-   String named `message`. This method, in turn, calls the full
-   System.out.println(String) method and passes along that message.
-   Once that line of code is done running, the program will jump
-   _back_ to where it was before and continue along -- kind
-   of like inception. 
-   
-   We'll talk about writing our own methods soon. They're very powerful
-   and awesome and da real mvp.
-  */
   static void printLine(String message) {
     System.out.println(message);
   }
